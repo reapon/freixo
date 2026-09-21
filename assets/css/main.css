@@ -2657,7 +2657,7 @@ h2.widget-title {
 }
 
 .contact-widget {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .contact-widget h2 {
@@ -4277,4 +4277,83 @@ i.icon-lg {
   .margin-for-section {
     margin-top: 5px;
   }
+
+  .back-to-top-whatsapp img {
+    height: 35px;
+    width: 35px;
+  }
+
+  .back-to-top-whatsapp {
+    right: 15px;
+  }
+}
+
+/* 
+.slider_area {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.single_slider {
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
+
+.single_slider img {
+    width: 100%;
+    height: auto;
+    display: block;
+} */
+
+.faq {
+  padding: 60px 0;
+}
+.faq .faq-list {
+  padding: 0;
+  list-style: none;
+}
+.faq .faq-list li {
+  background-color: #fff;
+  margin-bottom: 10px;
+  /* border-radius: 10px; */
+  padding: 10px 40px;
+  /* border: 1px solid #efeded; */
+  border-bottom: 1px solid #efeded;
+}
+.faq .faq-list a {
+  display: block;
+  position: relative;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+  text-decoration: none;
+}
+
+.faq .faq-list i {
+  font-size: 16px;
+  position: absolute;
+  left: -25px;
+  top: 6px;
+  transition: 1s;
+}
+.faq-title {
+  text-align: center;
+  font-size: 17px;
+  border-bottom: 2px dashed #ffffff;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+
+.faq .faq-list p {
+  padding-top: 5px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.collapsed i.fa.fa-arrow-up {
+  transform: rotate(180deg);
 }
